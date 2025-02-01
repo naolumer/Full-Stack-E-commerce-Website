@@ -1,4 +1,5 @@
 import BestSeller from '../components/BestSeller'
+import Footer from '../components/Footer'
 import Hero from '../components/Hero'
 import LatestCollection from '../components/LatestCollection'
 import Newsletter from '../components/Newsletter'
@@ -13,6 +14,7 @@ function Home() {
     <BestSeller/>
     <OurPolicy/>
     <Newsletter/>
+    <Footer/>
     </>
     
   )
