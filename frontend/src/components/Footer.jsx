@@ -35,7 +35,7 @@ function Footer() {
         <div>
             <hr />
             <p className='py-5 text-md text-center text-gray-800'>
-                ©forever.com 2025 - All Rights Reserved
+                © 2025 - Forever. All Rights Reserved.
             </p>
         </div>
     </div>
