@@ -14,7 +14,6 @@ function Home() {
     <BestSeller/>
     <OurPolicy/>
     <Newsletter/>
-    <Footer/>
     </>
     
   )
