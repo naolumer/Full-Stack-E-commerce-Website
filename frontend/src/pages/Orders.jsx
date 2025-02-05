@@ -1,8 +1,12 @@
 import React from 'react'
+import { ShopContext } from '../context/ShopContext'
 
 function Orders() {
+  const {products,currency} = useContext(ShopContext)
   return (
-    <div>Orders</div>
+    <div className='border-t pt-16'>
+
+    </div>
   )
 }
 
