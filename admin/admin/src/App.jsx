@@ -6,10 +6,11 @@ import Add from './pages/Add'
 import Orders from './pages/Orders'
 import Login from './components/Login'
 import { useEffect, useState } from 'react'
-import {ToastContainer} from "react-toastify"
-import "react-toastify/dist/ReactToastify.css"
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'
 
 export const backendURL = import.meta.env.VITE_BACKEND_URL
+export const currency = "$"
 
 
 function App() {

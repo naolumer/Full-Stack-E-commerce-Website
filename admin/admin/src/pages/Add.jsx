@@ -51,7 +51,6 @@ function Add({token}) {
         setImage3(false)
         setImage4(false)
         setName("")
-        setDescription("")
         setPrice("")
       } else {
         toast.error(response.data.message)
