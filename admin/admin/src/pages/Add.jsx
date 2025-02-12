@@ -45,6 +45,11 @@ function Add({token}) {
       console.log(response.data)
 
       if (response.data.success){
+        toast.success(response.data.messsage)
+        setImage1(false)
+        setImage2(false)
+        setImage3(false)
+        setImage4(false)
         setName("")
         setDescription("")
         setPrice("")
@@ -53,6 +58,7 @@ function Add({token}) {
       }
     }
      catch(error) {
+      console.log(error)
       toast.error(error.message)
 
     }}
@@ -120,23 +126,23 @@ function Add({token}) {
         <p className='mb-2'>Product Sizes</p>
         <div className='flex gap-3'>
           <div onClick={()=>setSizes(prev=> prev.includes("S")? prev.filter((size)=> size!=="S"): [...prev,"S"])}>
-            <p className={`${sizes.includes("S")? "bg-pink-100": "bg-slate-200"} px-3 py-1 cursor-pointer`}>S</p>
+            <p className={`${sizes.includes("S")? "bg-pink-200": "bg-slate-200"} px-3 py-1 cursor-pointer`}>S</p>
           </div>
 
           <div onClick={()=>setSizes(prev=> prev.includes("M")? prev.filter((size)=> size!=="M"): [...prev,"M"])}>
-            <p className={`${sizes.includes("M")? "bg-pink-100": "bg-slate-200"} px-3 py-1 cursor-pointer`}>M</p>
+            <p className={`${sizes.includes("M")? "bg-pink-200": "bg-slate-200"} px-3 py-1 cursor-pointer`}>M</p>
           </div>
 
           <div onClick={()=>setSizes(prev=> prev.includes("L")? prev.filter((size)=> size!=="L"): [...prev,"L"])}>
-            <p className={`${sizes.includes("L")? "bg-pink-100": "bg-slate-200"} px-3 py-1 cursor-pointer`}>L</p>
+            <p className={`${sizes.includes("L")? "bg-pink-200": "bg-slate-200"} px-3 py-1 cursor-pointer`}>L</p>
           </div>
 
           <div onClick={()=>setSizes(prev=> prev.includes("XL")?  prev.filter((size)=> size!=="XL"): [...prev,"XL"])}>
-            <p className={`${sizes.includes("XL")? "bg-pink-100": "bg-slate-200"} px-3 py-1 cursor-pointer`}>XL</p>
+            <p className={`${sizes.includes("XL")? "bg-pink-200": "bg-slate-200"} px-3 py-1 cursor-pointer`}>XL</p>
           </div>
 
           <div onClick={()=>setSizes(prev=> prev.includes("XXL")? prev.filter((size)=> size!=="XXL"): [...prev,"XXL"])}>
-            <p className={`${sizes.includes("XXL")? "bg-pink-100": "bg-slate-200"} px-3 py-1 cursor-pointer`}>XXL </p>
+            <p className={`${sizes.includes("XXL")? "bg-pink-200": "bg-slate-200"} px-3 py-1 cursor-pointer`}>XXL </p>
           </div>
         </div>
       </div>
