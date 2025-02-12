@@ -38,13 +38,24 @@ You can visit the live website here: [Forever ](https://forever-ecom.netlify.app
   - [React](https://reactjs.org/) for building the user interface.
   - [Tailwind CSS](https://tailwindcss.com/) for styling and responsive design.
 
+  - **Backend**:
+  -  Node/Express js
+  
+  - **Database**:
+  - MongoDB, mongoose for connecting mongodb with express.
+
 - **State Management**:
   - React Hooks and Context API for managing global state.
 
+  - **Other dependencies**:
+  - Axios
+  - react-toastify
+  - cloudinary
+  - Multer
+  - nodemon...
+  
 
 
-- **Deployment**:
-  - [Netlify](https://www.netlify.com/) for fast and reliable hosting.
 
 ## 🚀 Getting Started
 
