@@ -4,10 +4,12 @@ import { useState } from 'react';
 import {toast} from "react-toastify"
 
 function Login({setToken}) {
+    
     const [email,setEmail] = useState("")
     const [password,setPassword] = useState("")
     
     const onSubmitHandler  = async (e)=>{
+        
         try {
             e.preventDefault();
             const response = await axios.post(`${backendURL}/api/user/admin`,{email,password})

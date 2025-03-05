@@ -38,10 +38,10 @@ You can visit the live website here: [Forever ](https://forever-ecom.netlify.app
   - [React](https://reactjs.org/) for building the user interface.
   - [Tailwind CSS](https://tailwindcss.com/) for styling and responsive design.
 
-  - **Backend**:
+-**Backend**:
   -  Node/Express js
-  
-  - **Database**:
+
+- **Database**:
   - MongoDB, mongoose for connecting mongodb with express.
 
 - **State Management**:
