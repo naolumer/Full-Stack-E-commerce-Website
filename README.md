@@ -60,18 +60,15 @@ You can visit the live website here: [Forever ](https://forever-ecom.netlify.app
 ## 🚀 Getting Started
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/faisal-din/forever-eCommerce-website-
-    ```
+
 2. Navigate to the project directory:
     ```bash
-    cd forever-ecom
-    ```
+
 3. Install dependencies:
     ```bash
     npm install
     ```
 4. Run the app:
     ```bash
-    npm start
+    npm run dev
     ```
