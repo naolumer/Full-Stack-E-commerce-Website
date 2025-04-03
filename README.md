@@ -62,7 +62,6 @@ You can visit the live website here: [Forever ](https://forever-ecom.netlify.app
 1. Clone the repository:
 
 2. Navigate to the project directory:
-    ```bash
 
 3. Install dependencies:
     ```bash
